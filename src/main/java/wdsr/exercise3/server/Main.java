@@ -10,7 +10,7 @@ public class Main {
 	private static final Logger log = LoggerFactory.getLogger(Main.class);
 	
     public static final String SERVER_HOST = "localhost";
-    public static final int SERVER_PORT = 8090;
+    public static final int SERVER_PORT = 8080;
 
     public static void main( String[] args ) {
         final UndertowJaxrsServer server = new UndertowJaxrsServer().start( Undertow.builder().addHttpListener( SERVER_PORT, SERVER_HOST ) );
