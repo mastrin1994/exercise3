@@ -9,7 +9,7 @@ public class Main {
 	private static final Logger log = LoggerFactory.getLogger(Main.class);
 	
 	public static final String SERVER_HOST = "localhost";
-	public static final int SERVER_PORT = 8090;
+	public static final int SERVER_PORT = 8080;
 	
 	public static void main(String[] args) {
 		MyServer server = new MyServer(SERVER_HOST, SERVER_PORT);
